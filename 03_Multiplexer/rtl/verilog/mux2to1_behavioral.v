@@ -2,7 +2,7 @@ module mux2to1_behavioral(
     input I0,
     input I1,
     input Sel,
-    output reg y
+    output reg Y
 );
 
 always @(*) begin
