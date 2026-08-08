@@ -1,3 +1,6 @@
 # Ignore generated simulation outputs and waveforms
 **/simulations/
 **/waveforms/
+
+*.out
+*.vcd
