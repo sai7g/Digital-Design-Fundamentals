@@ -2,9 +2,9 @@
 
 module demux1to16_structural_tb;
 
-reg din;
-reg [3:0] sel;
-wire [15:0] y;
+logic din;
+logic [3:0] sel;
+logic [15:0] y;
 
 demux1to16_structural dut (
     .din(din),
